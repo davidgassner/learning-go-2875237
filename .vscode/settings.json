@@ -1,0 +1,8 @@
+{
+    "editor.useTabStops": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.fontFamily": "ui-monospace, Menlo, Monaco, Cascadia Mono",
+    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "workbench.preferredDarkColorTheme": "Default Light+"
+}
