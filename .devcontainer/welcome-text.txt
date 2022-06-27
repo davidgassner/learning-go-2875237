@@ -1,1 +1,5 @@
-Welcome to Codespaces!
+Welcome to Codespaces on LinkedIn Learning!
+ 
+Check out the README.md file to learn how we’ve customized the Codespaces experience for this course. 
+
+For more about using this development environment, watch this training’s "Using Codespaces with this course" video.
