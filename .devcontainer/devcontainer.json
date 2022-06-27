@@ -27,14 +27,7 @@
 		"golang.Go"
 	],
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "go version",
-
-	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "root",
-	"onCreateCommand": "cat ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt > /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
+	// Replace the welcome text for display on first load
+	"onCreateCommand": "sudo cp ${containerWorkspaceFolder}/.devcontainer/welcome-text.txt /usr/local/etc/vscode-dev-containers/first-run-notice.txt && echo PS1='\"$ \"' >> ~/.bashrc"
 
 }
